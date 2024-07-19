@@ -16,18 +16,18 @@ Introduction:
 The Caesar Cipher is one of the simplest and oldest encryption techniques, where each letter in the plaintext is shifted a certain number of places down or up the alphabet. This tool provides a straightforward implementation to demonstrate how Caesar Cipher works in practice.
 Features
 
-  .Encryption: Encrypt any message with a specified shift value.
-  .Decryption: Decrypt an encrypted message with the same shift value used for encryption.
-  .Interactive CLI: Easy-to-use command-line interface (CLI) for user interaction.
+    Encryption: Encrypt any message with a specified shift value.
+    Decryption: Decrypt an encrypted message with the same shift value used for encryption.
+    Interactive CLI: Easy-to-use command-line interface (CLI) for user interaction.
 
 Usage:
 
 To use the Caesar Cipher tool, run the Python script (caesar_cipher.py) in your preferred Python environment. Follow the prompts to encrypt or decrypt messages interactively.
 Commands
 
-  .Encrypt: Enter 'E' to encrypt a message.
-  .Decrypt: Enter 'D' to decrypt a message.
-  .Quit: Enter 'Q' to exit the program.
+    Encrypt: Enter 'E' to encrypt a message.
+    Decrypt: Enter 'D' to decrypt a message.
+    Quit: Enter 'Q' to exit the program.
 
   Examples
 Encrypting a Message:
@@ -44,14 +44,14 @@ Decrypting a Message:
 
 Requirements:
 
-  .Python 3.x
-  .Pillow library (pip install Pillow)
+    Python 3.x
+    Pillow library (pip install Pillow)
 
 Installation:
 
-  1.Clone or download the repository to your local machine.
-  2.Install Python 3.x if not already installed.
-  3.Install Pillow library using pip:
+    Clone or download the repository to your local machine.
+    Install Python 3.x if not already installed.
+    Install Pillow library using pip:
 
   License:
 
