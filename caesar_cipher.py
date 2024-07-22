@@ -2,27 +2,27 @@ def caesar_cipher_encrypt(plaintext, shift):
     ciphertext = ""
     for char in plaintext:
         if char.isalpha():  # Check if character is a letter
-            # Shift character within the range of its case (uppercase or lowercase)
+       
             if char.islower():
                 new_char = chr((ord(char) - ord('a') + shift) % 26 + ord('a'))
             elif char.isupper():
                 new_char = chr((ord(char) - ord('A') + shift) % 26 + ord('A'))
         else:
-            new_char = char  # If character is not a letter, do not encrypt
+            new_char = char 
         ciphertext += new_char
     return ciphertext
 
 def caesar_cipher_decrypt(ciphertext, shift):
     plaintext = ""
     for char in ciphertext:
-        if char.isalpha():  # Check if character is a letter
-            # Shift character within the range of its case (uppercase or lowercase)
+        if char.isalpha(): 
+            
             if char.islower():
                 new_char = chr((ord(char) - ord('a') - shift) % 26 + ord('a'))
             elif char.isupper():
                 new_char = chr((ord(char) - ord('A') - shift) % 26 + ord('A'))
         else:
-            new_char = char  # If character is not a letter, do not decrypt
+            new_char = char  
         plaintext += new_char
     return plaintext
 
